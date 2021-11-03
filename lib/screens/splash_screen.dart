@@ -4,6 +4,7 @@ import 'package:project_mark1/screens/carousel_screen.dart';
 import 'package:project_mark1/screens/credential_screen.dart';
 import 'package:project_mark1/screens/home_list.dart';
 import 'package:project_mark1/screens/payment_complete.dart';
+import 'package:project_mark1/screens/test.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);
@@ -35,6 +36,6 @@ class _SplashScreenState extends State<SplashScreen> {
     Navigator.pushReplacement(
         context,
         MaterialPageRoute(
-            builder: (_) => const paymentComplete())); //const CarouselScreen(),
+            builder: (_) => const HomePageScreen())); //const CarouselScreen(),
   }
 }
